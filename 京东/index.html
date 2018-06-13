@@ -931,8 +931,10 @@
         window.addEventListener("scroll",function(){
             if(document.body.scrollTop>180){
                 document.querySelector(".search").style.background = "#884c60";
+                document.querySelector(".search").style.top = "0";
             }else{
                 document.querySelector(".search").style.background = "none";
+                document.querySelector(".search").style.top = "auto";
             }
         })
         
@@ -1035,10 +1037,8 @@
         
         if(sessionStorage.closer == "true"){
             close.parentNode.parentNode.style.display = "none";
-            document.querySelector(".search").style.top = "auto";
         }else{
             close.parentNode.parentNode.style.display = "block";
-            document.querySelector(".search").style.top = "0";
         }
     </script>
 </body>
