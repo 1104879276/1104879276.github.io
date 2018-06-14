@@ -1209,6 +1209,7 @@ nav ul li a.active span {
 .me .main {
     background-color: #f3f3f3;
     padding-top: 67px;
+    margin-bottom: 150px;
 }
 
 .me .main .top-list {
@@ -1238,4 +1239,116 @@ nav ul li a.active span {
 .me .main .top-list li a.active {
     color: red;
     border-bottom: 2px solid red;
+}
+
+.me .main .bottom-list ul li {
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.me .main .bottom-list ul li .container {
+    padding: 0;
+}
+
+.me .main .bottom-list ul li .row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.me .main .bottom-list ul li a {
+    display: block;
+}
+
+.me .main .bottom-list ul li .col-xs-7,
+.me .main .bottom-list ul li .col-xs-5 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.me .main .bottom-list ul li .col-xs-7 {
+    padding: 10px 15px 0px 15px;
+}
+
+.me .main .bottom-list ul li .col-xs-7>p {
+    font-size: 16px;
+    color: #000;
+    height: 40px;
+    width: 95%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    margin: 0 auto;
+}
+
+.me .main .bottom-list ul li .col-xs-7 .user {
+    padding-top: 25px;
+}
+
+.me .main .bottom-list ul li .col-xs-7 .user img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.me .main .bottom-list ul li .col-xs-7 .user p {
+    font-size: 12px;
+    color: #999;
+    max-width : 80px;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 20px;
+    line-height: 20px;
+}
+
+.me .main .bottom-list ul li .col-xs-7 .user span {
+    font-size: 12px;
+    color: #999;
+    float: right;
+}
+
+.me .main .bottom-list ul li .col-xs-5 img {
+    width: 100%;
+}
+
+.me .main .bottom-list ul li.pics img {
+    width: 100%;
+}
+
+.me .main .bottom-list ul li.pics .container>p {
+    font-size: 16px;
+    color: #000;
+    padding: 16px 0px;
+    height: 54px;
+    display: block;
+/*
+    height: 50px;
+    line-height: 50px;
+*/
+/*    width: 95%;*/
+/*
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+*/
+    margin: 0 auto;
+}
+
+.me .main .bottom-list ul li.pics .user img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.me .main .bottom-list ul li.pics .user p {
+    font-size: 12px;
+    color: #999;
+/*    max-width : 80px;*/
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 20px;
+    line-height: 20px;
 }
