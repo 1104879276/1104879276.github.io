@@ -107,6 +107,53 @@
                           </div>
                       </a>
                   </li>
+                  <li v-for="list3 in list3">
+                     <div class="container">
+                         <div class="row">
+                             <a href="#" class="clearfix">
+                                 <div class="col-xs-7">
+                                    <p>{{list3.txt}}</p>
+                                    <div class="user clearfix">
+                                        <p><img :src="list3.userI" alt="">{{list3.userN}}</p>
+                                        <span>{{list3.read}}</span>
+                                    </div>
+                                 </div>
+                                 <div class="col-xs-5">
+                                    <img :src="list3.img" alt="">
+                                 </div>
+                             </a>
+                         </div>
+                     </div>
+                  </li>
+                  <li v-for="pic3 in pic3" class="pics">
+                      <a href="#">
+                          <img :src="pic3.img" alt="">
+                          <div class="container">
+                              <p>{{pic3.txt}}</p>
+                              <div class="user">
+                                  <p><img :src="pic3.userI" alt="">{{pic3.userN}}</p>
+                              </div>
+                          </div>
+                      </a>
+                  </li>
+                  <li v-for="list4 in list4">
+                     <div class="container">
+                         <div class="row">
+                             <a href="#" class="clearfix">
+                                 <div class="col-xs-7">
+                                    <p>{{list4.txt}}</p>
+                                    <div class="user clearfix">
+                                        <p><img :src="list4.userI" alt="">{{list4.userN}}</p>
+                                        <span>{{list4.read}}</span>
+                                    </div>
+                                 </div>
+                                 <div class="col-xs-5">
+                                    <img :src="list4.img" alt="">
+                                 </div>
+                             </a>
+                         </div>
+                     </div>
+                  </li>
               </ul>
           </div>
       </div>
@@ -164,6 +211,37 @@
             pic2:[
                 {txt:"畅爽夏日，买个车载冰箱到底值不值？英特尔懂事...",img:"images/me/pic2.jpg",userI:"images/me/3/3.use.dpg",userN:"京东问答 · 0次观看"}
             ],
+            list3:[
+                {txt:"用玻尿酸定格青春，我为润百颜打call!",img:"images/me/3/1.dpg",userI:"images/me/3/1.use.webp",userN:"CJsam",read:"259人阅读"},
+                {txt:"底板扫拖巧收拾，帮你请个“清洁保姆”回家",img:"images/me/3/2.dpg",userI:"images/me/3/2.use.dpg",userN:"蜗居士",read:"385人阅读"},
+                {txt:"不管多遥远的距离，有了它便可以轻松解决异地恋的困扰",img:"images/me/3/3.webp",userI:"images/me/3/3.use.dpg",userN:"海阔天空068",read:"2399人阅读"},
+                {txt:"若想厨艺路上不再寂寞，美的烤箱伴你行",img:"images/me/4/4.dpg",userI:"images/me/4/4.use.dpg",userN:"A品",read:"2575人阅读"},
+            ],
+            pic3:[
+                {txt:"净水器真能“净”水么 花几千元到底值不值？",img:"images/me/pic3.jpg",userI:"images/me/3/1.use.webp",userN:"京东问答 · 0次观看"}
+            ],
+            list4:[
+                {txt:"梦想不熄，G SHOCK与赛亚人悟空不得不说的故事",img:"images/me/4/1.webp",userI:"images/me/4/1.use.dpg",userN:"爱生活爱数码",read:"1w+人阅读"},
+                {txt:"潜水冲浪必备：防水的战术对讲机，让你在户外安全行走",img:"images/me/4/2.dpg",userI:"images/me/4/2.use.dpg",userN:"极果",read:"3319人阅读"},
+                {txt:"太倦不想工作怎么办？简单一招解除“灰色状态”",img:"images/me/4/3.dpg",userI:"images/me/4/3.use.dpg",userN:"美家",read:"708人阅读"},
+                {txt:"牛奶、豆浆营养大PK，你站哪一队？",img:"images/me/4/4.dpg",userI:"images/me/4/4.use.dpg",userN:"爱淘",read:"459人阅读"},
+                {txt:"想让宝贝健康成长，这些黄金法则你一定要知道！",img:"images/me/4/5.dpg",userI:"images/me/4/5.use.dpg",userN:"学做一位好妈妈",read:"250人阅读"},
+                {txt:"眼睛不好都是因为这两个原因，你中了吗？",img:"images/me/4/6.webp",userI:"images/me/4/6.use.dpg",userN:"头条君",read:"512人阅读"},
+                {txt:"视疲劳怎能视而不见？拯救上双眼的方法原来是...",img:"images/me/4/7.webp",userI:"images/me/4/7.use.dpg",userN:"美家",read:"315人阅读"},
+                {txt:"5月不减肥，7月穿这条裙子出门也不伤悲",img:"images/me/4/8.dpg",userI:"images/me/4/8.use.dpg",userN:"Charming",read:"425人阅读"},
+                {txt:"你落起盛夏的雨季，飘来解我千愁的绵雨！",img:"images/me/4/9.dpg",userI:"images/me/4/9.use.dpg",userN:"极简生活派",read:"1263人阅读"},
+                {txt:"洁癖私藏的清洁好物，你被圈粉了吗？",img:"images/me/4/10.dpg",userI:"images/me/4/10.use.dpg",userN:"创意集合部",read:"210人阅读"},
+                {txt:"给女朋友浪漫，自己动手做高颜值早餐",img:"images/me/4/11.dpg",userI:"images/me/4/11.use.dpg",userN:"左依晴",read:"280人阅读"},
+                {txt:"OPPO R15星云特别版开箱：设计大赞，颜值实在高",img:"images/me/4/12.dpg",userI:"images/me/4/12.use.dpg",userN:"科客",read:"746人阅读"},
+                {txt:"舒尔SE846保值四单元动铁HiFi旗舰！",img:"images/me/4/13.dpg",userI:"images/me/4/13.use.webp",userN:"勺子耍数码",read:"6224人阅读"},
+                {txt:"一不小心，我就爱上了这种清洁方式",img:"images/me/4/14.dpg",userI:"images/me/4/14.use.dpg",userN:"小姐姐的家",read:"5195人阅读"},
+                {txt:"护肤怎么可以输给亲弟弟？家里只能有我一个精致少女！",img:"images/me/4/15.dpg",userI:"images/me/4/15.use.dpg",userN:"买家指南",read:"6357人阅读"},
+                {txt:"OPPO全新旗舰Find X 王者归来：外观完美到极致！",img:"images/me/4/16.dpg",userI:"images/me/4/16.use.dpg",userN:"小调范儿",read:"1w+人阅读"},
+                {txt:"macOS更新，新增暗夜模式，打通与iOS间的壁垒",img:"images/me/4/17.dpg",userI:"images/me/4/17.use.dpg",userN:"极果",read:"518人阅读"},
+                {txt:"热水器品质好不好，漏不漏点是非常重要的！",img:"images/me/4/18.dpg",userI:"images/me/4/18.use.dpg",userN:"居家宅男",read:"4258人阅读"},
+                {txt:"陪伴是长情的告白，美的热水器代你做回小棉袄",img:"images/me/4/19.webp",userI:"images/me/4/19.use.webp",userN:"创客邦",read:"527人阅读"},
+                {txt:"四两拨千金！智能门锁的持久动力来自这个小家伙",img:"images/me/4/20.webp",userI:"images/me/4/20.use.dpg",userN:"美妆种草酱",read:"1w+人阅读"},
+            ]
         }
     });
     </script>
