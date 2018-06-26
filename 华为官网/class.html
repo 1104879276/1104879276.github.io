@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>华为商城</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/class.css">
+</head>
+<body>
+   <div class="search">
+       <div class="container clearfix">
+           <div class="left">
+               <i class="fa fa-search"></i>
+                <input type="text" placeholder="华为荣耀8">
+           </div>
+           <div class="right">
+               <a href="#"><img src="images/class/header-right.png" alt=""></a>
+           </div>
+       </div>
+   </div>
+   <div class="main">
+       <div class="row">
+           <div class="col-xs-3">
+               <div class="list">
+                   <ul>
+                       <li><a href="#" class="active">
+                           为你推荐
+                       </a></li>
+                       <li><a href="#">
+                           华为手机
+                       </a></li>
+                       <li><a href="#">
+                           荣耀手机
+                       </a></li>
+                       <li><a href="#">
+                           笔记本&平板
+                       </a></li>
+                       <li><a href="#">
+                           智能穿戴
+                       </a></li>
+                       <li><a href="#">
+                           智能家居
+                       </a></li>
+                       <li><a href="#">
+                           专属配件
+                       </a></li>
+                       <li><a href="#">
+                           通用配件
+                       </a></li>
+                       <li><a href="#">
+                           生态产品
+                       </a></li>
+                       <li><a href="#">
+                           增值服务
+                       </a></li>
+                   </ul>
+               </div>
+           </div>
+           <div class="col-xs-9">
+               <div class="main-list" id="main-list">
+                   <ul>
+                       <li class="item">
+                           <a href="#">
+                               <img src="images/class/weinituijian/top1.jpg" alt="">
+                           </a>
+                           <a href="#">
+                               <img src="images/class/weinituijian/top2.jpg" alt="">
+                           </a>
+                           <a href="#">
+                               <img src="images/class/weinituijian/top3.jpg" alt="">
+                           </a>
+                           <div class="item1-list1 item-list">
+                               <div class="top-title">
+                                   <p>热销推荐</p>
+                               </div>
+                               <div class="row">
+                                   <div class="col-xs-4" v-for="item1list1 in item1list1">
+                                       <a href="#">
+                                           <img :src="item1list1.img" alt="">
+                                           <p>{{item1list1.name}}</p>
+                                       </a>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="item1-list2 item-list">
+                               <div class="top-title">
+                                   <p>超值精选</p>
+                               </div>
+                               <div class="row">
+                                   <div class="col-xs-4" v-for="item1list2 in item1list2">
+                                       <a href="#">
+                                           <img :src="item1list2.img" alt="">
+                                           <p>{{item1list2.name}}</p>
+                                       </a>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="item1-list3 item-list">
+                               <div class="top-title">
+                                   <p>移动4G+专区</p>
+                               </div>
+                               <div class="row">
+                                   <div class="col-xs-4" v-for="item1list3 in item1list3">
+                                       <a href="#">
+                                           <img :src="item1list3.img" alt="">
+                                           <p>{{item1list3.name}}</p>
+                                       </a>
+                                   </div>
+                               </div>
+                           </div>
+                       </li>
+                       <li class="item">
+                           <div class="item2-list1 item-list">
+                               <div class="top-title">
+                                   <p>精选手机</p>
+                               </div>
+                               <div class="row">
+                                   <div class="col-xs-4" v-for="item2list1 in item2list1">
+                                       <a href="#">
+                                           <img :src="item2list1.img" alt="">
+                                           <p>{{item2list1.name}}</p>
+                                       </a>
+                                   </div>
+                               </div>
+                           </div>
+                           
+                       </li>
+                   </ul>
+               </div>
+           </div>
+       </div>
+   </div>
+   <div class="footer-nav">
+       <ul class="clearfix">
+           <li><a href="index.html"><img src="images/home/footer/pic1.png" alt=""></a></li>
+           <li><a href="class.html"><img src="images/home/footer/pic2.png" alt=""></a></li>
+           <li><a href="#"><img src="images/home/footer/pic3.gif" alt=""></a></li>
+           <li><a href="shop-car.html"><img src="images/home/footer/pic4.png" alt=""></a></li>
+           <li><a href="me.html"><img src="images/home/footer/pic5.png" alt=""></a></li>
+       </ul>
+   </div>
+    <script src="js/vue.js"></script>
+    <script src="js/class.js"></script>
+</body>
+</html>

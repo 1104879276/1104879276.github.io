@@ -1,0 +1,492 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+html,body{ height: 100%; margin: 0; padding: 0; font-size: 14px;}
+@media screen and (max-width:320px ) {
+    html{font-size: 14px;}
+}
+@media screen and (min-width:321px) and (max-width:750px ) {
+    html{font-size: 16px;}
+}
+@media screen and (min-width:751px ) {
+    html{font-size: 18px;}
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+body {
+    background-color: #eaeaea;
+    font-size: 16px;
+}
+
+header {
+    background-image: url(../images/me/top-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    padding: 5px 0px;
+    position: fixed;
+    z-index: 2;
+}
+
+header .nav {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+header .nav .left {
+    float: left;
+}
+
+header .nav .left a {
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+header .nav .left p {
+    font-size: 0.7rem;
+    color: rgba(255,255,255,.7);
+    margin-bottom: 0;
+}
+
+header .nav .right {
+    float: right;
+}
+
+header .nav .right a {
+    display: block;
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+header .nav .right a img {
+    width: 100%;
+}
+
+/*top-nav的样式*/
+
+.top-nav {
+    background-image: url(../images/me/top-bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 67px;
+    position: relative;
+}
+
+.top-nav .user {
+    display: block;
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    bottom: -2rem;
+    left: 50%;
+    margin-left: -2rem;
+    z-index: 3;
+}
+
+.top-nav .user img {
+    width: 100%;
+}
+
+/*nav-bar的样式*/
+
+.nav-bar {
+    background-color: #fff;
+    padding-top: 2rem;
+}
+
+.nav-bar .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.nav-bar .col-xs-4 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nav-bar .col-xs-4 a {
+    display: block;
+    text-align: center;
+    padding: 5px 0px;
+    position: relative;
+}
+
+.nav-bar .col-xs-4 a:after {
+    content: '';
+    width: 1px;
+    height: .65rem;
+    background-color: #eee;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -.35rem;
+}
+
+.nav-bar .col-xs-4 a .top {
+    text-align: center;
+}
+
+.nav-bar .col-xs-4 .top img {
+    width: 1.4rem;
+    height: 1.4rem;
+    display: inline-block;
+}
+
+.nav-bar .col-xs-4 .top p {
+    font-size: 0.6rem;
+    line-height: 1.4rem;
+    display: inline-block;
+    color: #888;
+    margin-bottom: 0;
+}
+
+.nav-bar .col-xs-4 span {
+    display: block;
+    color: #333;
+    font-size: 0.6rem;
+}
+
+/*order的样式*/
+
+.order {
+    margin-top: 8px;
+    background-color: #fff;
+    padding: 10px 0px;
+}
+
+.order .top {
+    padding-bottom: 10px;
+}
+
+.order .top p {
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 0;
+    line-height: 0.9rem;
+    float: left;
+}
+
+.order .top a {
+    font-size: 0.7rem;
+    color: #888;
+    float: right;
+    line-height: 0.9rem;
+    display: block;
+}
+
+.order .nav ul {
+    margin-bottom: 0;
+}
+
+.order .nav ul li {
+    width: 20%;
+    float: left;
+}
+
+.order .nav ul li a {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.order .nav ul li a img {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.order .nav ul li a p {
+    font-size: 0.7rem;
+    color: #333;
+    padding-top: 5px;
+    margin-bottom: 0;
+}
+
+/*vmall的样式*/
+
+.vmall {
+    background-color: #fff;
+    padding: 10px 0px;
+    margin-top: 8px;
+}
+
+.vmall .top p {
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 0;
+    line-height: 0.9rem;
+}
+
+.vmall .list {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.vmall .list ul li {
+    float: left;
+    width: 25%;
+}
+
+.vmall .list ul li a {
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.vmall .list ul li a img {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.vmall .list ul li a p {
+    font-size: 0.7rem;
+    color: #333;
+    padding-top: 5px;
+    margin-bottom: 0;
+}
+
+/*banner的样式*/
+
+.banner {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+/*main的样式*/
+
+.main {
+    background-color: #fff;
+    margin-top: 8px;
+}
+
+.main .top-title {
+    font-size: 0.8rem;
+    color: #333;
+    line-height: 2.2rem;
+}
+
+.main .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.main .col-xs-6 {
+    background-color: #fff;
+    text-align: center;
+    border-top: 1px solid #eaeaea;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.main .col-xs-6 a {
+    display: block;
+    padding: 20px;
+}
+
+.main .col-xs-6 img {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.main .col-xs-6 p {
+    font-size: 0.8rem;
+    padding: 13px 0px;
+    color: #333;
+    margin-bottom: 0;
+}
+
+.main .col-xs-6 span {
+    color: #ca151e;
+    font-size: 0.8rem;
+/*    padding-bottom: 10px;*/
+    display: block;
+}
+
+/*footer的样式*/
+
+.footer {
+    margin-top: 8px;
+    padding-bottom: 70px;
+    background-color: #fff;
+}
+
+.footer .container {
+    width: 90%;
+}
+
+.footer .top {
+    border-bottom: 1px solid #eaeaea;
+}
+
+.footer .top .sign {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+
+.footer .top .sign a {
+    float: left;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    font-size: 0.8rem;
+    color: #000;
+    height: 2rem;
+    line-height: 2rem;
+}
+
+.footer .top .sign a:nth-of-type(1):before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -0.45rem;
+    height: .9rem;
+    width: 0;
+    border-right: 1px solid #eaeaea;
+}
+
+.footer .middle {
+    padding: 15px 0px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.footer .middle a {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.footer .middle a i {
+    background-image: url(../images/home/app.png);
+    background-size: auto 100%;
+    display: block;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0 auto;
+}
+
+.footer .middle a:nth-of-type(1) i {
+    background-position: center left;
+}
+
+.footer .middle a:nth-of-type(2) i {
+    background-position: center center;
+}
+
+.footer .middle a:nth-of-type(3) i {
+    background-position: center right;
+}
+
+.footer .middle a p {
+    font-size: 0.8rem;
+    color: #888;
+    padding-top: 5px;
+}
+
+.footer .middle a:nth-of-type(2) p {
+    color: #333;
+}
+
+.footer .bottom {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.footer .bottom a {
+    padding: 0 5px;
+    position: relative;
+    display: inline;
+    font-size: 0.75rem;
+    color: #333;
+}
+
+/*footer-nav的样式*/
+
+.footer-nav {
+    position: fixed;
+    bottom: 0;
+}
+
+.footer-nav ul {
+    margin-bottom: 0;
+}
+
+.footer-nav ul li {
+    float: left;
+    width: 20%;
+}
+
+.footer-nav ul li a {
+    display: block;
+}
+
+.footer-nav ul li a img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

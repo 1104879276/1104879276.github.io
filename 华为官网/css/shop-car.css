@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+html,body{ height: 100%; margin: 0; padding: 0; font-size: 14px;}
+@media screen and (max-width:320px ) {
+    html{font-size: 14px;}
+}
+@media screen and (min-width:321px) and (max-width:750px ) {
+    html{font-size: 16px;}
+}
+@media screen and (min-width:751px ) {
+    html{font-size: 18px;}
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+body {
+    background-color: #eaeaea;
+    font-size: 16px;
+}
+
+header {
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+}
+
+header h4 {
+    color: #333;
+    line-height: 50px;
+    margin: 0;
+    font-size: 16px;
+    display: block;
+}
+
+/*banner的样式*/
+
+.banner {
+    padding: 30px 25px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.banner i.shop-car {
+    background-image: url(../images/shop-car/ashop-car.png);
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    margin-right: 7px;
+    margin-bottom: -5px;
+}
+
+.banner p {
+    font-size: 1rem;
+    color: #888;
+    display: inline-block;
+}
+
+.banner a {
+    font-size: 0.8rem;
+    display: inline-block;
+    line-height: 24px;
+    padding: 0 15px;
+    border: 1px solid #ca151e;
+    color: #ca151e;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+/*main的样式*/
+
+.main {
+    background-color: #fff;
+}
+
+.main .top-title {
+    font-size: 0.8rem;
+    color: #333;
+    line-height: 2.2rem;
+}
+
+.main .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.main .col-xs-6 {
+    background-color: #fff;
+    text-align: center;
+    border-top: 1px solid #eaeaea;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.main .col-xs-6 a {
+    display: block;
+    padding: 20px;
+}
+
+.main .col-xs-6 img {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.main .col-xs-6 p {
+    font-size: 0.8rem;
+    padding: 13px 0px;
+    color: #333;
+    margin-bottom: 0;
+}
+
+.main .col-xs-6 span {
+    color: #ca151e;
+    font-size: 0.8rem;
+/*    padding-bottom: 10px;*/
+    display: block;
+}
+
+/*footer-nav的样式*/
+
+.footer-nav {
+    position: fixed;
+    bottom: 0;
+}
+
+.footer-nav ul {
+    margin-bottom: 0;
+}
+
+.footer-nav ul li {
+    float: left;
+    width: 20%;
+}
+
+.footer-nav ul li a {
+    display: block;
+}
+
+.footer-nav ul li a img {
+    width: 100%;
+}

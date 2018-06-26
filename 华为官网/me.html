@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的华为商城</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/me.css">
+</head>
+<body>
+    <header>
+        <div class="nav clearfix">
+            <div class="left">
+                <a href="#">登录 / 注册></a>
+                <p>享受更多会员权益</p>
+            </div>
+            <div class="right">
+                <a href="#"><img src="images/me/top-nav-right.png" alt=""></a>
+            </div>
+        </div>
+    </header>
+    <div class="top-nav">
+        <a class="user" href="#">
+            <img src="images/me/user.png" alt="">
+        </a>
+    </div>
+    <div class="nav-bar">
+        <div class="row">
+            <div class="col-xs-4">
+                <a href="#">
+                    <div class="top clearfix">
+                        <img src="images/me/jifen.png" alt="">
+                        <p>积分</p>
+                    </div>
+                    <span>--分</span>
+                </a>
+            </div>
+            <div class="col-xs-4">
+                <a href="#">
+                    <div class="top clearfix">
+                        <img src="images/me/youhuijuan.png" alt="">
+                        <p>优惠券</p>
+                    </div>
+                    <span>--张</span>
+                </a>
+            </div>
+            <div class="col-xs-4">
+                <a href="#">
+                    <div class="top clearfix">
+                        <img src="images/me/daijinjuan.png" alt="">
+                        <p>代金券</p>
+                    </div>
+                    <span>--元</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="order">
+        <div class="top clearfix">
+            <div class="container">
+                <p>我的订单</p>
+                <a href="#">全部订单></a>
+            </div>
+        </div>
+        <div class="nav">
+            <ul class="clearfix">
+                <li><a href="#">
+                    <img src="images/me/daifukuan.png" alt="">
+                    <p>待付款</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="images/me/daishouhuo.png" alt="">
+                    <p>待收货</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="images/me/daipingjia.png" alt="">
+                    <p>待评价</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="images/me/tuihuanhuo.png" alt="">
+                    <p>退换货</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="images/me/huishoudan.png" alt="">
+                    <p>回收单</p>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="vmall">
+        <div class="top">
+            <div class="container">
+                <p>我的Vmall</p>
+            </div>
+        </div>
+        <div class="list">
+            <ul class="clearfix">
+                <li><a href="#">
+                    <img src="images/me/huiyuanpindao.png" alt="">
+                    <p>会员频道</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="images/me/shimingrenzheng.png" alt="">
+                    <p>实名认证</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="images/me/shouhuodizhi.png" alt="">
+                    <p>收货地址</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="images/me/youxianggou.png" alt="">
+                    <p>优享购</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="images/me/yougouma.png" alt="">
+                    <p>优购码</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="images/me/yuyuejilu.png" alt="">
+                    <p>预约记录</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="images/me/yaoqingyouli.png" alt="">
+                    <p>邀请有礼</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="images/me/zhanghaozhongxin.png" alt="">
+                    <p>账号中心</p>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="banner">
+        <img src="images/me/bottom.jpg" alt="">
+    </div>
+    <div class="main">
+       <div class="container">
+           <div class="top-title">
+               热销推荐
+           </div>
+       </div>
+       <div class="row" id="list">
+           <div class="col-xs-6" v-for="list in list">
+               <a href="#">
+                   <img :src="list.img" alt="">
+                   <p>{{list.name}}</p>
+                   <span>{{list.price}}</span>
+               </a>
+           </div>
+       </div>
+   </div>
+   <div class="footer">
+      <div class="container">
+          <div class="top">
+              <div class="sign clearfix">
+                  <a href="#">
+                      登录
+                  </a>
+                  <a href="#">
+                      反馈
+                  </a>
+              </div>
+          </div>
+          <div class="middle clearfix">
+              <a href="#">
+                  <i></i>
+                  <p>客户端</p>
+              </a>
+              <a href="#">
+                  <i></i>
+                  <p>触屏版</p>
+              </a>
+              <a href="#">
+                  <i></i>
+                  <p>电脑版</p>
+              </a>
+          </div>
+          <div class="bottom">
+              <a href="#">隐私政策</a>
+              <a href="#">用户协议</a>
+              <a href="#">苏ICP备17040376号-6</a>
+              <br>
+              <a href="#">苏公网安备32011402010009号</a>
+              <a href="#">Copyright©2012-20</a>
+              <br>
+              <a href="#">VMALL.COM版权所有</a>
+          </div>
+      </div>
+  </div>
+   <div class="footer-nav">
+       <ul class="clearfix">
+           <li><a href="index.html"><img src="images/home/footer/pic1.png" alt=""></a></li>
+           <li><a href="class.html"><img src="images/home/footer/pic2.png" alt=""></a></li>
+           <li><a href="#"><img src="images/home/footer/pic3.gif" alt=""></a></li>
+           <li><a href="shop-car.html"><img src="images/home/footer/pic4.png" alt=""></a></li>
+           <li><a href="me.html"><img src="images/home/footer/pic5.png" alt=""></a></li>
+       </ul>
+   </div>
+    <script src="js/vue.js"></script>
+    <script src="js/me.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>华为商城</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/shop-car.css">
+</head>
+<body>
+   <header>
+       <div class="container">
+           <h4>购物车</h4>
+       </div>
+   </header>
+   <div class="banner">
+       <i class="shop-car"></i>
+       <p>购物车中还没有商品，赶紧选购吧！</p>
+       <a href="#">去逛逛</a>
+   </div>
+   <div class="main">
+       <div class="container">
+           <div class="top-title">
+               热销推荐
+           </div>
+       </div>
+       <div class="row" id="list">
+           <div class="col-xs-6" v-for="list in list">
+               <a href="#">
+                   <img :src="list.img" alt="">
+                   <p>{{list.name}}</p>
+                   <span>{{list.price}}</span>
+               </a>
+           </div>
+       </div>
+   </div>
+   <div class="footer-nav">
+       <ul class="clearfix">
+           <li><a href="index.html"><img src="images/home/footer/pic1.png" alt=""></a></li>
+           <li><a href="class.html"><img src="images/home/footer/pic2.png" alt=""></a></li>
+           <li><a href="#"><img src="images/home/footer/pic3.gif" alt=""></a></li>
+           <li><a href="shop-car.html"><img src="images/home/footer/pic4.png" alt=""></a></li>
+           <li><a href="me.html"><img src="images/home/footer/pic5.png" alt=""></a></li>
+       </ul>
+   </div>
+    <script src="js/vue.js"></script>
+    <script src="js/shop-car.js"></script>
+</body>
+</html>
