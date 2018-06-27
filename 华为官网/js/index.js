@@ -162,7 +162,11 @@ var search = document.querySelector(".search");
 window.onscroll = function(){
     if(document.body.scrollTop>100){
         search.style.background = "#fff";
+        search.children[0].children[1].children[0].children[0].src = "images/class/header-right.png";
+        search.children[0].children[1].children[1].style.color = "#000";
     }else{
-        search.style.background = "-webkit-gradient(linear, 0% 100%, 0% 0%, from(rgba(255, 255, 255, 0)), color-stop(0.7, rgba(152, 152, 152, 0.7)))"
+        search.style.background = "-webkit-gradient(linear, 0% 100%, 0% 0%, from(rgba(255, 255, 255, 0)), color-stop(0.7, rgba(152, 152, 152, 0.7)))";
+        search.children[0].children[1].children[0].children[0].src = "images/home/top-right.png";
+        search.children[0].children[1].children[1].style.color = "#fff";
     }
 }

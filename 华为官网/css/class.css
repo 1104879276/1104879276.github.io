@@ -130,7 +130,11 @@ img {
 .main .col-xs-9 {
     padding-left: 5px;
     padding-right: 5px;
-} 
+}
+
+.main .col-xs-9 .main-list .item {
+    padding-bottom: 70px;
+}
 
 .main .col-xs-9 .main-list .item a {
     display: block;
@@ -208,6 +212,7 @@ img {
 .footer-nav {
     position: fixed;
     bottom: 0;
+    z-index: 20;
 }
 
 .footer-nav ul {
