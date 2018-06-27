@@ -33,3 +33,20 @@ for(let i=0;i<list.length;i++){
         console.log(i);
     }
 }
+
+var navbara = document.querySelectorAll(".nav-bar .col-xs-4");
+var prompt = document.querySelector(".prompt");
+for(let i=0;i<navbara.length;i++){
+    navbara[i].onclick = function(){
+        prompt.style.display = "block";
+        setTimeout(function(){
+            prompt.style.transform = "scale(1)";
+        },0);
+    }
+    prompt.children[0].children[1].onclick = function(){
+        prompt.style.transform = "scale(0)";
+        setTimeout(function(){
+            prompt.style.display = "none";
+        },1000);
+    }
+}

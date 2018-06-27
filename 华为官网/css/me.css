@@ -166,6 +166,53 @@ header .nav .right a img {
     font-size: 0.6rem;
 }
 
+/*prompt的样式*/
+
+.prompt {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    background-color: rgba(0,0,0,.2);
+    width: 400px;
+    height: 707px;
+    display: none;
+    transition: 1s;
+    transform: scale(0);
+}
+
+.prompt .box {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    margin-top: -115px;
+    left: 50%;
+    margin-left: -100px;
+}
+
+.prompt .box .txt {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    line-height: 200px;
+    margin: 0 auto;
+}
+
+
+.prompt .box .btn {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    height: 30px;
+    background-color: #888;
+    color: #000;
+    border-radius: 0px;
+}
+
 /*order的样式*/
 
 .order {
