@@ -1,0 +1,434 @@
+body {
+    font-family: inherit;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    background-color: #d2c4be;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 0%;
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: transparent;
+    border-bottom: 3px solid #fff;
+}
+
+.navbar-header a {
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    padding: 2em .75em;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: normal;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ddd;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+/*    background-color: #2578a7;*/
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #FFF;
+/*    background-color: #2578A7;*/
+}
+
+header .header-n {
+    height: 700px;
+    background-image: url(../images/work1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-color: transparent;
+}
+
+header .header-n .txt {
+    text-align: center;
+    padding-top: 25%;
+}
+
+header .header-n .txt .title {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300 !important;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+header .header-n .txt p {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 300 !important;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+header .header-n .txt a.btn {
+    background: #79c34f;
+    color: #fff;
+    border: none !important;
+    border: 2px solid transparent !important;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 1em 5em;
+    transition: 0.5s background;
+}
+
+header .header-n .txt a.btn:hover {
+    background: #393e46 !important;
+    color: #fff;
+    outline: none !important;
+}
+
+.main .item1 {
+    padding: 7em 0;
+}
+
+.main .item1 .col-md-3 h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #5a5a5a;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    margin-top: 0;
+    position: relative;
+}
+
+.main .item1 .col-md-3 h3:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    width: 30px;
+    height: 2px;
+    background: #79c34f;
+}
+
+.main .item1 .col-md-3 p {
+    margin-bottom: 1.5em;
+    font-size: 18px;
+    color: #848484;
+    font-weight: 100;
+/*    font-family: "Source Sans Pro", Arial, sans-serif;*/
+}
+
+.main .item1 .col-md-9 a {
+    display: block;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.main .item1 .col-md-9 a img {
+    width: 100%;
+    height: 100%;
+}
+
+.main .item2 {
+    padding: 7em 0;
+}
+
+.main .item2 .col-md-3 h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #5a5a5a;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    margin-top: 0;
+    position: relative;
+}
+
+.main .item2 .col-md-3 h3:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    width: 30px;
+    height: 2px;
+    background: #79c34f;
+}
+
+.main .item2 .col-md-3 p {
+    margin-bottom: 1.5em;
+    font-size: 18px;
+    color: #848484;
+    font-weight: 100;
+/*    font-family: "Source Sans Pro", Arial, sans-serif;*/
+}
+
+.main .item2 .col-md-9 a {
+    display: block;
+    margin-bottom: 5em;
+}
+
+.main .item2 .col-md-9 a i {
+    font-size: 60px;
+    color: rgba(0,0,0,.3);
+    font-weight: 100;
+    margin-bottom: 25px;
+}
+
+.main .item2 .col-md-9 a h3 {
+    font-size: 18px;
+    font-weight: 300;
+    color: #5a5a5a;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.main .item2 .col-md-9 a p {
+    margin-bottom: 1.5em;
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    color: #848484;
+}
+
+.banner {
+    background: #184bde;
+    padding: 5em 0;
+}
+
+.banner .col-md-3 h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    margin-top: 0;
+    position: relative;
+}
+
+.banner .col-md-3 h3:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    width: 30px;
+    height: 2px;
+    background: #79c34f;
+}
+
+.banner .col-md-3 p {
+    margin-bottom: 1.5em;
+    font-size: 18px;
+    color: rgba(255,255,255,.7);
+    font-weight: 100;
+/*    font-family: "Source Sans Pro", Arial, sans-serif;*/
+}
+
+.banner .col-md-9 .col-md-4 a {
+    display: block;
+/*    padding: 20px;*/
+/*    background-image: url(../images/blog-1.jpg);*/
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 385px;
+    position: relative;
+    margin-bottom: 30px;
+    box-shadow: 10px 27px 78px -15px rgba(0, 0, 0, 0.57);
+}
+
+.banner .col-md-9 .col-md-4:nth-of-type(1) a{
+    background-image: url(../images/blog-1.jpg);
+}
+
+.banner .col-md-9 .col-md-4:nth-of-type(2) a{
+    background-image: url(../images/blog-2.jpg);
+}
+
+.banner .col-md-9 .col-md-4:nth-of-type(3) a{
+    background-image: url(../images/blog-3.jpg);
+}
+
+.banner .col-md-9 .col-md-4 a .box {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.banner .col-md-9 .col-md-4 a span {
+    color: #fff;
+    margin-bottom: 20px;
+    display: inline-block;
+    padding: 4px 15px;
+    background-color: rgba(0,0,0,.2);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.banner .col-md-9 .col-md-4 a h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.banner .col-md-9 .col-md-4 a p {
+    color: rgba(255,255,255,.7);
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+footer {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: #222831;
+}
+
+footer .col-md-6 p {
+    color: rgba(255,255,255,.3);
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1.5em;
+}
+
+footer .col-md-6 p a {
+    color: rgba(255,255,255,.5);
+}
+
+footer .col-md-6 ul {
+    float: right;
+    padding-left: 0;
+}
+
+footer .col-md-6 ul li {
+    float: left;
+    margin-left: 30px;
+}
+
+footer .col-md-6 ul li a {
+    font-size: 12px;
+    color: rgba(255,255,255,.5);
+}
+
+@media (max-width:450px) {
+    .navbar-header a {
+        color: #fff;
+        font-size: 26px;
+        font-weight: bold;
+        margin-top: 35px;
+        margin-bottom: 30px;
+        display: inline-block;
+        width: 30%;
+        text-align: center;
+        margin-left: 30%;
+    }
+    
+    .navbar-toggle {
+        position: relative;
+        float: right;
+        padding: 9px 10px;
+        margin-top: 8px;
+        margin-right: 15px;
+        margin-bottom: 8px;
+        background-color: transparent;
+        background-image: none;
+        border: 0px solid transparent;
+        border-radius: 4px;
+        margin-top: 2.5em;
+    }
+    
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    
+    .navbar-default .navbar-nav>li>a {
+        color: #fff;
+        padding: 0.5em .75em;
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: normal;
+    }
+    
+    header .header-n .txt .title {
+        color: #fff;
+        font-size: 30px;
+        font-weight: 300 !important;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    
+    header .header-n {
+        height: 600px;
+        background-image: url(../images/work1.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-color: transparent;
+    }
+    
+    header .header-n .txt {
+        text-align: center;
+        padding-top: 50%;
+    }
+    
+    .main .item1 {
+        padding: 4em 0;
+    }
+    
+    .main .item2 {
+        padding: 4em 0;
+    }
+    
+    footer .col-md-6 ul {
+        text-align: center;
+        float: none;
+    }
+    
+    footer .col-md-6 ul li {
+        float: none;
+        display: inline-block;
+        margin-left: 7px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
